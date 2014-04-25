@@ -11,6 +11,8 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Attribute Information:
 
-For each record, a 79-feature vector are included for columns with names that include "mean()" and "std()". 
-- Its activity label. 
-- An identifier of the subject who carried out the experiment.
+For each record, a 79-feature vector are included for columns with names that include "mean()" and "std()", an activity label, and a subject identifier. 
+
+Script:
+
+Execution of the script also includes the mean of each 79-feature vector by activity by subject summarizing the individual observerations.
